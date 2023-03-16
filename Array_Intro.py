@@ -12,7 +12,7 @@
 from array import array 
 
 New_array = array('i',  [1, 2, 3, 4, 5])  #Here 'i' denotes the type of data that is Integer
-print(New_array)  #array('i', [1, 2, 3, 4, 5])
+# print(New_array)  #array('i', [1, 2, 3, 4, 5])
 
 # print(dir(New_array))  #Array is having some methods same as lists like append,pop,remove,extend,index,reverse,count,insert
 
@@ -23,17 +23,17 @@ arr1 = array('i', [10, 11, 7])
 # print(arr1) #array('i', [10, 11, 7])
 
 arr2 = array('f', [2, 10.11, 110.2 ,22.20])  #Here 'f' float data type
-print(arr2)  #array('f', [2.0, 10.109999656677246, 110.19999694824219, 22.200000762939453])
+# print(arr2)  #array('f', [2.0, 10.109999656677246, 110.19999694824219, 22.200000762939453])
 
 
 arr3 = array('d', [9.29, 10.22, 8.38, 39.30])
-print(arr3)  #array('d', [9.29, 10.22, 8.38, 39.3])
+# print(arr3)  #array('d', [9.29, 10.22, 8.38, 39.3])
 
 arr4 = array('B', [255, 0, 3]) #Here 'B' is bytes data type It Only Supports values upto 255
 # print(arr4)  #array('B', [255, 0, 3]) 
 
 arr5 = array('i', (10, 200, 300)) 
-print(arr5) #array('i', [10, 200, 300]) Tuple will be converted into list
+# print(arr5) #array('i', [10, 200, 300]) Tuple will be converted into list
 
 # arr6 = array('i', {1:"A", 2:"B", 3:"C", 4:"D"})
 # print(arr6)  #array('i', [1, 2, 3, 4]) Only keys will be considered
@@ -45,7 +45,7 @@ arr8 = array('i', range(1,10))
 # print(arr8)  #array('i', [1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 arr9 = array('u', ["A","V", "E", "N", "G", "E", "R"])
-print(arr9)
+# print(arr9)
 
 #--------------------Array Methods :------>
 
@@ -56,14 +56,14 @@ a[0] = 60
 
 #Array Append :--
 a.append(9)
-print(a)  #array('i', [60, 20, 30, 40, 50, 9])
+# print(a)  #array('i', [60, 20, 30, 40, 50, 9])
 
 # a.append(ord("B"))
 # print(a)  #array('i', [60, 20, 30, 40, 50, 9, 66])
 
 b = array('d', [10.22, 9.99, 8.23, 8.2, 9.33])
 b.extend([20, 10.22])
-print(b) #array('d', [10.22, 9.99, 8.23, 8.2, 9.33, 20.0, 10.22])
+# print(b) #array('d', [10.22, 9.99, 8.23, 8.2, 9.33, 20.0, 10.22])
 
 
 # print(b.count(10.22))  #1
@@ -110,7 +110,7 @@ for i in b:
 import numpy as np
 
 a4 = np.array([[10,20,ord("A")], [22,33,44]])
-print(a4)
+# print(a4)
 # print(type(a4))
 
 
@@ -118,4 +118,10 @@ a5 = np.array([["A", "Abhay", 10+100],[20, 20+4j, "Ram"]])
 # print(a5)
 
 a6 = np.zeros (8, dtype=np.int64)
-print(a6)
+# print(a6)
+
+
+
+
+p_language = np.array(["Python", "Java", "CSS",  "HTML", "JavaScript", "MySQL", "JSON", "XML"])
+print(p_language)
