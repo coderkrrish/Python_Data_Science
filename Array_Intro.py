@@ -129,3 +129,12 @@ print(p_language)
 
 new_arr = np.array([100, 2.22, 201, 323, 33 , 323])
 print(new_arr)
+
+
+def multiplication():
+    a = range(1, 11)
+    for num in a :
+        print(num **2 )
+
+multiplication()
+
