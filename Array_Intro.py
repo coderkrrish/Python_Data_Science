@@ -125,3 +125,7 @@ a6 = np.zeros (8, dtype=np.int64)
 
 p_language = np.array(["Python", "Java", "CSS",  "HTML", "JavaScript", "MySQL", "JSON", "XML"])
 print(p_language)
+
+
+new_arr = np.array([100, 2.22, 201, 323, 33 , 323])
+print(new_arr)
